@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/mxl5xx.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/dvb-frontends/mxl5xx.ko drivers/media/dvb-frontends/mxl5xx.o drivers/media/dvb-frontends/mxl5xx.mod.o;  true

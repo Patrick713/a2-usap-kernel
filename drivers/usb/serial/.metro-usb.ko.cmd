@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/metro-usb.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/serial/metro-usb.ko drivers/usb/serial/metro-usb.o drivers/usb/serial/metro-usb.mod.o;  true

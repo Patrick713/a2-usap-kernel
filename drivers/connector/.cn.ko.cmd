@@ -1,0 +1,1 @@
+cmd_drivers/connector/cn.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/connector/cn.ko drivers/connector/cn.o drivers/connector/cn.mod.o;  true

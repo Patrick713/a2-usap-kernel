@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-arizona.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o sound/soc/codecs/snd-soc-arizona.ko sound/soc/codecs/snd-soc-arizona.o sound/soc/codecs/snd-soc-arizona.mod.o;  true

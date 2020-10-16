@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-dionaudio-loco-v2.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o sound/soc/bcm/snd-soc-dionaudio-loco-v2.ko sound/soc/bcm/snd-soc-dionaudio-loco-v2.o sound/soc/bcm/snd-soc-dionaudio-loco-v2.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/ums-realtek.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/storage/ums-realtek.ko drivers/usb/storage/ums-realtek.o drivers/usb/storage/ums-realtek.mod.o;  true

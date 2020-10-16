@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-ntrig.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/hid/hid-ntrig.ko drivers/hid/hid-ntrig.o drivers/hid/hid-ntrig.mod.o;  true

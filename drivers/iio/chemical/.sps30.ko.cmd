@@ -1,0 +1,1 @@
+cmd_drivers/iio/chemical/sps30.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/iio/chemical/sps30.ko drivers/iio/chemical/sps30.o drivers/iio/chemical/sps30.mod.o;  true

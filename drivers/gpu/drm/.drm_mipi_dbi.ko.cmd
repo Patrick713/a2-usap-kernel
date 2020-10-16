@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/drm_mipi_dbi.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/gpu/drm/drm_mipi_dbi.ko drivers/gpu/drm/drm_mipi_dbi.o drivers/gpu/drm/drm_mipi_dbi.mod.o;  true

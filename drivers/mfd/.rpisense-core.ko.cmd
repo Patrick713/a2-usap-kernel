@@ -1,0 +1,1 @@
+cmd_drivers/mfd/rpisense-core.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/mfd/rpisense-core.ko drivers/mfd/rpisense-core.o drivers/mfd/rpisense-core.mod.o;  true

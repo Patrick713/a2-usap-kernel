@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_physdev.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/xt_physdev.ko net/netfilter/xt_physdev.o net/netfilter/xt_physdev.mod.o;  true

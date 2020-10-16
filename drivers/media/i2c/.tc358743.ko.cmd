@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/tc358743.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/i2c/tc358743.ko drivers/media/i2c/tc358743.o drivers/media/i2c/tc358743.mod.o;  true

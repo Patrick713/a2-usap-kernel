@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/tsl4531.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/iio/light/tsl4531.ko drivers/iio/light/tsl4531.o drivers/iio/light/tsl4531.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/backlight.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/video/backlight/backlight.ko drivers/video/backlight/backlight.o drivers/video/backlight/backlight.mod.o;  true

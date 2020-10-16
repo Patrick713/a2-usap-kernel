@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-m41t80.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/rtc/rtc-m41t80.ko drivers/rtc/rtc-m41t80.o drivers/rtc/rtc-m41t80.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-chicony.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/hid/hid-chicony.ko drivers/hid/hid-chicony.o drivers/hid/hid-chicony.mod.o;  true

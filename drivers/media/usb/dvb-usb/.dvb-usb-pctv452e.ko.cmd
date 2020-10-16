@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb-pctv452e.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/usb/dvb-usb/dvb-usb-pctv452e.ko drivers/media/usb/dvb-usb/dvb-usb-pctv452e.o drivers/media/usb/dvb-usb/dvb-usb-pctv452e.mod.o;  true

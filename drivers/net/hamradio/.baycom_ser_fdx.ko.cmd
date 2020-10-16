@@ -1,0 +1,1 @@
+cmd_drivers/net/hamradio/baycom_ser_fdx.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/hamradio/baycom_ser_fdx.ko drivers/net/hamradio/baycom_ser_fdx.o drivers/net/hamradio/baycom_ser_fdx.mod.o;  true

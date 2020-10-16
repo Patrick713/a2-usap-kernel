@@ -1,0 +1,1 @@
+cmd_drivers/regulator/arizona-micsupp.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/regulator/arizona-micsupp.ko drivers/regulator/arizona-micsupp.o drivers/regulator/arizona-micsupp.mod.o;  true

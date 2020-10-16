@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/ads7846.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/input/touchscreen/ads7846.ko drivers/input/touchscreen/ads7846.o drivers/input/touchscreen/ads7846.mod.o;  true

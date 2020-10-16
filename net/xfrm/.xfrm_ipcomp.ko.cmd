@@ -1,0 +1,1 @@
+cmd_net/xfrm/xfrm_ipcomp.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/xfrm/xfrm_ipcomp.ko net/xfrm/xfrm_ipcomp.o net/xfrm/xfrm_ipcomp.mod.o;  true

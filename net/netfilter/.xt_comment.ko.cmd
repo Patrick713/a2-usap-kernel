@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_comment.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/xt_comment.ko net/netfilter/xt_comment.o net/netfilter/xt_comment.mod.o;  true

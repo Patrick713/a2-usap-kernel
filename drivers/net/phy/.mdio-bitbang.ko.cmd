@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/mdio-bitbang.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/phy/mdio-bitbang.ko drivers/net/phy/mdio-bitbang.o drivers/net/phy/mdio-bitbang.mod.o;  true

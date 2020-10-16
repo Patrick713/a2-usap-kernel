@@ -1,0 +1,1 @@
+cmd_drivers/usb/usbip/usbip-core.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/usbip/usbip-core.ko drivers/usb/usbip/usbip-core.o drivers/usb/usbip/usbip-core.mod.o;  true

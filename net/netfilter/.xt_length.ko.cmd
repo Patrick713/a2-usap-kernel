@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_length.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/xt_length.ko net/netfilter/xt_length.o net/netfilter/xt_length.mod.o;  true

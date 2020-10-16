@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-bcm2835.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/i2c/busses/i2c-bcm2835.ko drivers/i2c/busses/i2c-bcm2835.o drivers/i2c/busses/i2c-bcm2835.mod.o;  true

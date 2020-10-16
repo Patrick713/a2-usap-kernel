@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-samsung.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/hid/hid-samsung.ko drivers/hid/hid-samsung.o drivers/hid/hid-samsung.mod.o;  true

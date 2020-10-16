@@ -1,0 +1,1 @@
+cmd_drivers/uio/uio_pdrv_genirq.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/uio/uio_pdrv_genirq.ko drivers/uio/uio_pdrv_genirq.o drivers/uio/uio_pdrv_genirq.mod.o;  true

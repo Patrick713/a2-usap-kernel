@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/ipt_CLUSTERIP.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/ipv4/netfilter/ipt_CLUSTERIP.ko net/ipv4/netfilter/ipt_CLUSTERIP.o net/ipv4/netfilter/ipt_CLUSTERIP.mod.o;  true

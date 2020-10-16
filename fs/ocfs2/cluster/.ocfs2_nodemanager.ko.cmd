@@ -1,0 +1,1 @@
+cmd_fs/ocfs2/cluster/ocfs2_nodemanager.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o fs/ocfs2/cluster/ocfs2_nodemanager.ko fs/ocfs2/cluster/ocfs2_nodemanager.o fs/ocfs2/cluster/ocfs2_nodemanager.mod.o;  true

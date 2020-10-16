@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/au8522_dig.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/dvb-frontends/au8522_dig.ko drivers/media/dvb-frontends/au8522_dig.o drivers/media/dvb-frontends/au8522_dig.mod.o;  true

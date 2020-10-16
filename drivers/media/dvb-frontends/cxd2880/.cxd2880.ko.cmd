@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/cxd2880/cxd2880.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/dvb-frontends/cxd2880/cxd2880.ko drivers/media/dvb-frontends/cxd2880/cxd2880.o drivers/media/dvb-frontends/cxd2880/cxd2880.mod.o;  true

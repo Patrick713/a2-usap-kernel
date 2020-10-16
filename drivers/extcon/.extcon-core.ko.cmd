@@ -1,0 +1,1 @@
+cmd_drivers/extcon/extcon-core.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/extcon/extcon-core.ko drivers/extcon/extcon-core.o drivers/extcon/extcon-core.mod.o;  true

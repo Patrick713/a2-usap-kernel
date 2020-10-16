@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_iprange.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/xt_iprange.ko net/netfilter/xt_iprange.o net/netfilter/xt_iprange.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/atmel/at76c50x-usb.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/atmel/at76c50x-usb.ko drivers/net/wireless/atmel/at76c50x-usb.o drivers/net/wireless/atmel/at76c50x-usb.mod.o;  true

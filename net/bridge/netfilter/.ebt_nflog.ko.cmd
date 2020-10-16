@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebt_nflog.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/bridge/netfilter/ebt_nflog.ko net/bridge/netfilter/ebt_nflog.o net/bridge/netfilter/ebt_nflog.mod.o;  true

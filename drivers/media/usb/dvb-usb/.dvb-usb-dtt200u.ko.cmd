@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb-dtt200u.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/usb/dvb-usb/dvb-usb-dtt200u.ko drivers/media/usb/dvb-usb/dvb-usb-dtt200u.o drivers/media/usb/dvb-usb/dvb-usb-dtt200u.mod.o;  true

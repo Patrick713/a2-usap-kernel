@@ -1,0 +1,1 @@
+cmd_drivers/usb/atm/speedtch.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/atm/speedtch.ko drivers/usb/atm/speedtch.o drivers/usb/atm/speedtch.mod.o;  true

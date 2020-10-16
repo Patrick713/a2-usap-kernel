@@ -1,0 +1,1 @@
+cmd_net/sched/act_police.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/sched/act_police.ko net/sched/act_police.o net/sched/act_police.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_ss_lb.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/gadget/function/usb_f_ss_lb.ko drivers/usb/gadget/function/usb_f_ss_lb.o drivers/usb/gadget/function/usb_f_ss_lb.mod.o;  true

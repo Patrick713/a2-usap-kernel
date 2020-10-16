@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-abx80x.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/rtc/rtc-abx80x.ko drivers/rtc/rtc-abx80x.o drivers/rtc/rtc-abx80x.mod.o;  true

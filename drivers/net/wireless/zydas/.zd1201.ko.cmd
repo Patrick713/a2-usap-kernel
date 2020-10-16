@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/zydas/zd1201.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/zydas/zd1201.ko drivers/net/wireless/zydas/zd1201.o drivers/net/wireless/zydas/zd1201.mod.o;  true

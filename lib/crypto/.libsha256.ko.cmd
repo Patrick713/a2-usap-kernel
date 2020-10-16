@@ -1,0 +1,1 @@
+cmd_lib/crypto/libsha256.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o lib/crypto/libsha256.ko lib/crypto/libsha256.o lib/crypto/libsha256.mod.o;  true

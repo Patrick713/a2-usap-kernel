@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/ums-isd200.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/storage/ums-isd200.ko drivers/usb/storage/ums-isd200.o drivers/usb/storage/ums-isd200.mod.o;  true

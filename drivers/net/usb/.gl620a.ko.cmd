@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/gl620a.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/usb/gl620a.ko drivers/net/usb/gl620a.o drivers/net/usb/gl620a.mod.o;  true

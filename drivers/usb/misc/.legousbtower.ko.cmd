@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/legousbtower.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/misc/legousbtower.ko drivers/usb/misc/legousbtower.o drivers/usb/misc/legousbtower.mod.o;  true

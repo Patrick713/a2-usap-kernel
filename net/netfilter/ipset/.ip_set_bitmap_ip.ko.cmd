@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set_bitmap_ip.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/ipset/ip_set_bitmap_ip.ko net/netfilter/ipset/ip_set_bitmap_ip.o net/netfilter/ipset/ip_set_bitmap_ip.mod.o;  true

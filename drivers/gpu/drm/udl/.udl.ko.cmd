@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/udl/udl.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/gpu/drm/udl/udl.ko drivers/gpu/drm/udl/udl.o drivers/gpu/drm/udl/udl.mod.o;  true

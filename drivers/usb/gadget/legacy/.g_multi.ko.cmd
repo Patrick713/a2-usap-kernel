@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/legacy/g_multi.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/gadget/legacy/g_multi.ko drivers/usb/gadget/legacy/g_multi.o drivers/usb/gadget/legacy/g_multi.mod.o;  true

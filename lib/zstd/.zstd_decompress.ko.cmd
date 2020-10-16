@@ -1,0 +1,1 @@
+cmd_lib/zstd/zstd_decompress.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o lib/zstd/zstd_decompress.ko lib/zstd/zstd_decompress.o lib/zstd/zstd_decompress.mod.o;  true

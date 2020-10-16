@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mediatek/mt7601u/mt7601u.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/mediatek/mt7601u/mt7601u.ko drivers/net/wireless/mediatek/mt7601u/mt7601u.o drivers/net/wireless/mediatek/mt7601u/mt7601u.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-bigbenff.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/hid/hid-bigbenff.ko drivers/hid/hid-bigbenff.o drivers/hid/hid-bigbenff.mod.o;  true

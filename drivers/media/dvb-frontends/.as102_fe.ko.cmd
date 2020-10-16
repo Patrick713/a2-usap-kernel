@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/as102_fe.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/dvb-frontends/as102_fe.ko drivers/media/dvb-frontends/as102_fe.o drivers/media/dvb-frontends/as102_fe.mod.o;  true

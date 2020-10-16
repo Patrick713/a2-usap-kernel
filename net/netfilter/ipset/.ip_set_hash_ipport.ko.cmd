@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set_hash_ipport.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/ipset/ip_set_hash_ipport.ko net/netfilter/ipset/ip_set_hash_ipport.o net/netfilter/ipset/ip_set_hash_ipport.mod.o;  true

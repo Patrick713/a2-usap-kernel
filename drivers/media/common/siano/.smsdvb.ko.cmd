@@ -1,0 +1,1 @@
+cmd_drivers/media/common/siano/smsdvb.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/common/siano/smsdvb.ko drivers/media/common/siano/smsdvb.o drivers/media/common/siano/smsdvb.mod.o;  true

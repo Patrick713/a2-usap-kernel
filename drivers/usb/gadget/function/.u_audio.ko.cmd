@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/u_audio.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/gadget/function/u_audio.ko drivers/usb/gadget/function/u_audio.o drivers/usb/gadget/function/u_audio.mod.o;  true

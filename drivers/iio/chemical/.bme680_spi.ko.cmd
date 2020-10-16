@@ -1,0 +1,1 @@
+cmd_drivers/iio/chemical/bme680_spi.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/iio/chemical/bme680_spi.ko drivers/iio/chemical/bme680_spi.o drivers/iio/chemical/bme680_spi.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_conntrack_h323.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/nf_conntrack_h323.ko net/netfilter/nf_conntrack_h323.o net/netfilter/nf_conntrack_h323.mod.o;  true

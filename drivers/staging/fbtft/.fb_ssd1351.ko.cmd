@@ -1,0 +1,1 @@
+cmd_drivers/staging/fbtft/fb_ssd1351.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/staging/fbtft/fb_ssd1351.ko drivers/staging/fbtft/fb_ssd1351.o drivers/staging/fbtft/fb_ssd1351.mod.o;  true

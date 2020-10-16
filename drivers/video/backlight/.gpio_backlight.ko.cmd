@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/gpio_backlight.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/video/backlight/gpio_backlight.ko drivers/video/backlight/gpio_backlight.o drivers/video/backlight/gpio_backlight.mod.o;  true

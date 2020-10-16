@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/ip6table_filter.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/ipv6/netfilter/ip6table_filter.ko net/ipv6/netfilter/ip6table_filter.o net/ipv6/netfilter/ip6table_filter.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/cypress_cy7c63.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/misc/cypress_cy7c63.ko drivers/usb/misc/cypress_cy7c63.o drivers/usb/misc/cypress_cy7c63.mod.o;  true

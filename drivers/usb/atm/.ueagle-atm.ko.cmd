@@ -1,0 +1,1 @@
+cmd_drivers/usb/atm/ueagle-atm.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/atm/ueagle-atm.ko drivers/usb/atm/ueagle-atm.o drivers/usb/atm/ueagle-atm.mod.o;  true

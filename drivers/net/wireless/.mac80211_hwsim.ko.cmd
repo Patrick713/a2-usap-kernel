@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mac80211_hwsim.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/mac80211_hwsim.ko drivers/net/wireless/mac80211_hwsim.o drivers/net/wireless/mac80211_hwsim.mod.o;  true

@@ -1,0 +1,21 @@
+!<thin>
+//                                              134       `
+hid-core.o/
+hid-input.o/
+hid-quirks.o/
+hid-debug.o/
+hidraw.o/
+hid-generic.o/
+usbhid/hid-core.o/
+usbhid/hiddev.o/
+usbhid/hid-pidff.o/
+
+/0              0           0     0     644     56132     `
+/12             0           0     0     644     52100     `
+/25             0           0     0     644     20512     `
+/39             0           0     0     644     45500     `
+/52             0           0     0     644     13420     `
+/62             0           0     0     644     4464      `
+/77             0           0     0     644     30696     `
+/96             0           0     0     644     14124     `
+/113            0           0     0     644     15880     `

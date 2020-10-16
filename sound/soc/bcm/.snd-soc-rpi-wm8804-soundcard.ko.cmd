@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-rpi-wm8804-soundcard.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o sound/soc/bcm/snd-soc-rpi-wm8804-soundcard.ko sound/soc/bcm/snd-soc-rpi-wm8804-soundcard.o sound/soc/bcm/snd-soc-rpi-wm8804-soundcard.mod.o;  true

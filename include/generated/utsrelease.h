@@ -1,0 +1,1 @@
+#define UTS_RELEASE "5.4.70-v7-s3728713+"

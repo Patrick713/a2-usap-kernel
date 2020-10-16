@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebt_vlan.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/bridge/netfilter/ebt_vlan.ko net/bridge/netfilter/ebt_vlan.o net/bridge/netfilter/ebt_vlan.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/ath3k.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/bluetooth/ath3k.ko drivers/bluetooth/ath3k.o drivers/bluetooth/ath3k.mod.o;  true

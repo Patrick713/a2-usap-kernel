@@ -1,0 +1,1 @@
+cmd_net/openvswitch/vport-gre.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/openvswitch/vport-gre.ko net/openvswitch/vport-gre.o net/openvswitch/vport-gre.mod.o;  true

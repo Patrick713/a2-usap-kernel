@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/ir-kbd-i2c.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/i2c/ir-kbd-i2c.ko drivers/media/i2c/ir-kbd-i2c.o drivers/media/i2c/ir-kbd-i2c.mod.o;  true

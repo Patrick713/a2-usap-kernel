@@ -1,0 +1,1 @@
+cmd_drivers/leds/trigger/ledtrig-transient.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/leds/trigger/ledtrig-transient.ko drivers/leds/trigger/ledtrig-transient.o drivers/leds/trigger/ledtrig-transient.mod.o;  true

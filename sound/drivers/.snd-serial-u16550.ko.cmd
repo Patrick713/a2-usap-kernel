@@ -1,0 +1,1 @@
+cmd_sound/drivers/snd-serial-u16550.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o sound/drivers/snd-serial-u16550.ko sound/drivers/snd-serial-u16550.o sound/drivers/snd-serial-u16550.mod.o;  true

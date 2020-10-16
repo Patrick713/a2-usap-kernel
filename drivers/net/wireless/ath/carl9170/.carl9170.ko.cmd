@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/carl9170/carl9170.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/ath/carl9170/carl9170.ko drivers/net/wireless/ath/carl9170/carl9170.o drivers/net/wireless/ath/carl9170/carl9170.mod.o;  true

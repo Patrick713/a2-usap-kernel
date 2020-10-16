@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/core/syscopyarea.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/video/fbdev/core/syscopyarea.ko drivers/video/fbdev/core/syscopyarea.o drivers/video/fbdev/core/syscopyarea.mod.o;  true

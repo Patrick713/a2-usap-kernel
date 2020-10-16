@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/marvell/libertas/usb8xxx.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/marvell/libertas/usb8xxx.ko drivers/net/wireless/marvell/libertas/usb8xxx.o drivers/net/wireless/marvell/libertas/usb8xxx.mod.o;  true

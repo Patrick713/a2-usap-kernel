@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_ecn.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/xt_ecn.ko net/netfilter/xt_ecn.o net/netfilter/xt_ecn.mod.o;  true

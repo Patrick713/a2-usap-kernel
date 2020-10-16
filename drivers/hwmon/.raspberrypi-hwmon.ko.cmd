@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/raspberrypi-hwmon.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/hwmon/raspberrypi-hwmon.ko drivers/hwmon/raspberrypi-hwmon.o drivers/hwmon/raspberrypi-hwmon.mod.o;  true

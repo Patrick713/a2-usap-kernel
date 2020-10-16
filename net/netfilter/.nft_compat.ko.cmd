@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_compat.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/nft_compat.ko net/netfilter/nft_compat.o net/netfilter/nft_compat.mod.o;  true

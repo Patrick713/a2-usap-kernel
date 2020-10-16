@@ -1,0 +1,1 @@
+cmd_drivers/media/cec/cec.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/cec/cec.ko drivers/media/cec/cec.o drivers/media/cec/cec.mod.o;  true

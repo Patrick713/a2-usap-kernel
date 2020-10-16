@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-mockup.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/gpio/gpio-mockup.ko drivers/gpio/gpio-mockup.o drivers/gpio/gpio-mockup.mod.o;  true

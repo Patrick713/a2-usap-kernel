@@ -1,0 +1,1 @@
+cmd_drivers/md/dm-bio-prison.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/md/dm-bio-prison.ko drivers/md/dm-bio-prison.o drivers/md/dm-bio-prison.mod.o;  true

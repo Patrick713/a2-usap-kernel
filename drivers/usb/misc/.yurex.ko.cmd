@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/yurex.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/misc/yurex.ko drivers/usb/misc/yurex.o drivers/usb/misc/yurex.mod.o;  true

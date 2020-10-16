@@ -1,0 +1,1 @@
+cmd_drivers/iio/pressure/bmp280-spi.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/iio/pressure/bmp280-spi.ko drivers/iio/pressure/bmp280-spi.o drivers/iio/pressure/bmp280-spi.mod.o;  true

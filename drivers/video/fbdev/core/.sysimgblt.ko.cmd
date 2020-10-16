@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/core/sysimgblt.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/video/fbdev/core/sysimgblt.ko drivers/video/fbdev/core/sysimgblt.o drivers/video/fbdev/core/sysimgblt.mod.o;  true

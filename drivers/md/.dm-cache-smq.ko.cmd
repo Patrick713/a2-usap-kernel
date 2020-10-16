@@ -1,0 +1,1 @@
+cmd_drivers/md/dm-cache-smq.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/md/dm-cache-smq.ko drivers/md/dm-cache-smq.o drivers/md/dm-cache-smq.mod.o;  true

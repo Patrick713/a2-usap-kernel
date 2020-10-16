@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-gaff.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/hid/hid-gaff.ko drivers/hid/hid-gaff.o drivers/hid/hid-gaff.mod.o;  true

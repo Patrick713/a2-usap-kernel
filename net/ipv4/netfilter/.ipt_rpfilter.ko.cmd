@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/ipt_rpfilter.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/ipv4/netfilter/ipt_rpfilter.ko net/ipv4/netfilter/ipt_rpfilter.o net/ipv4/netfilter/ipt_rpfilter.mod.o;  true

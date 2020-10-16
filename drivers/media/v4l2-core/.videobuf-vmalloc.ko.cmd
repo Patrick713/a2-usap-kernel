@@ -1,0 +1,1 @@
+cmd_drivers/media/v4l2-core/videobuf-vmalloc.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/v4l2-core/videobuf-vmalloc.ko drivers/media/v4l2-core/videobuf-vmalloc.o drivers/media/v4l2-core/videobuf-vmalloc.mod.o;  true

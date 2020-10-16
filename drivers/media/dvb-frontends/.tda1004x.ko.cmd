@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/tda1004x.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/dvb-frontends/tda1004x.ko drivers/media/dvb-frontends/tda1004x.o drivers/media/dvb-frontends/tda1004x.mod.o;  true

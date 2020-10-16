@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/ark3116.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/serial/ark3116.ko drivers/usb/serial/ark3116.o drivers/usb/serial/ark3116.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_net/sched/act_mirred.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/sched/act_mirred.ko net/sched/act_mirred.o net/sched/act_mirred.mod.o;  true

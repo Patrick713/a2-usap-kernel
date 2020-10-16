@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/tm6000/tm6000.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/usb/tm6000/tm6000.ko drivers/media/usb/tm6000/tm6000.o drivers/media/usb/tm6000/tm6000.mod.o;  true

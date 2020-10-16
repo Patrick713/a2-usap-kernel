@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-pcf2127.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/rtc/rtc-pcf2127.ko drivers/rtc/rtc-pcf2127.o drivers/rtc/rtc-pcf2127.mod.o;  true

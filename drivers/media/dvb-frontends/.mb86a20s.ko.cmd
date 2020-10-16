@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/mb86a20s.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/dvb-frontends/mb86a20s.ko drivers/media/dvb-frontends/mb86a20s.o drivers/media/dvb-frontends/mb86a20s.mod.o;  true

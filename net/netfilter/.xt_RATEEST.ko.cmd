@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_RATEEST.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/xt_RATEEST.ko net/netfilter/xt_RATEEST.o net/netfilter/xt_RATEEST.mod.o;  true

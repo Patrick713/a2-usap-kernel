@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_conntrack_netbios_ns.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/nf_conntrack_netbios_ns.ko net/netfilter/nf_conntrack_netbios_ns.o net/netfilter/nf_conntrack_netbios_ns.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/scsi/libiscsi_tcp.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/scsi/libiscsi_tcp.ko drivers/scsi/libiscsi_tcp.o drivers/scsi/libiscsi_tcp.mod.o;  true

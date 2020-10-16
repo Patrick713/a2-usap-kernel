@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/iio_hwmon.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/hwmon/iio_hwmon.ko drivers/hwmon/iio_hwmon.o drivers/hwmon/iio_hwmon.mod.o;  true

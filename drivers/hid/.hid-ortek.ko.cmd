@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-ortek.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/hid/hid-ortek.ko drivers/hid/hid-ortek.o drivers/hid/hid-ortek.mod.o;  true

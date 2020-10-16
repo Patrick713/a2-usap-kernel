@@ -1,0 +1,1 @@
+cmd_drivers/staging/fbtft/fb_st7789v.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/staging/fbtft/fb_st7789v.ko drivers/staging/fbtft/fb_st7789v.o drivers/staging/fbtft/fb_st7789v.mod.o;  true

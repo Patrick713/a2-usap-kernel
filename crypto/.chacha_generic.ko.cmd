@@ -1,0 +1,1 @@
+cmd_crypto/chacha_generic.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o crypto/chacha_generic.ko crypto/chacha_generic.o crypto/chacha_generic.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-ma120x0p.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o sound/soc/codecs/snd-soc-ma120x0p.ko sound/soc/codecs/snd-soc-ma120x0p.o sound/soc/codecs/snd-soc-ma120x0p.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/can/spi/mcp251x.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/can/spi/mcp251x.ko drivers/net/can/spi/mcp251x.o drivers/net/can/spi/mcp251x.mod.o;  true

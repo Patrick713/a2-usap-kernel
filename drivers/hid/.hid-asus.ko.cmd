@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-asus.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/hid/hid-asus.ko drivers/hid/hid-asus.o drivers/hid/hid-asus.mod.o;  true

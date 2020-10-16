@@ -1,0 +1,1 @@
+cmd_drivers/input/matrix-keymap.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/input/matrix-keymap.ko drivers/input/matrix-keymap.o drivers/input/matrix-keymap.mod.o;  true

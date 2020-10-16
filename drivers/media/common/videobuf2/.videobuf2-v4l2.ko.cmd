@@ -1,0 +1,1 @@
+cmd_drivers/media/common/videobuf2/videobuf2-v4l2.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/common/videobuf2/videobuf2-v4l2.ko drivers/media/common/videobuf2/videobuf2-v4l2.o drivers/media/common/videobuf2/videobuf2-v4l2.mod.o;  true

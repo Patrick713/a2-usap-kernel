@@ -1,0 +1,1 @@
+cmd_drivers/input/gameport/ns558.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/input/gameport/ns558.ko drivers/input/gameport/ns558.o drivers/input/gameport/ns558.mod.o;  true

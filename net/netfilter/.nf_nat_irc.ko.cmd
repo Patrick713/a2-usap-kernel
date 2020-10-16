@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_nat_irc.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/nf_nat_irc.ko net/netfilter/nf_nat_irc.o net/netfilter/nf_nat_irc.mod.o;  true

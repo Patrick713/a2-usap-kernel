@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebt_limit.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/bridge/netfilter/ebt_limit.ko net/bridge/netfilter/ebt_limit.o net/bridge/netfilter/ebt_limit.mod.o;  true

@@ -1,0 +1,110 @@
+!<thin>
+//                                              668       `
+client.o/
+dir.o/
+file.o/
+getroot.o/
+inode.o/
+super.o/
+io.o/
+direct.o/
+pagelist.o/
+read.o/
+symlink.o/
+unlink.o/
+write.o/
+namespace.o/
+mount_clnt.o/
+nfstrace.o/
+export.o/
+sysfs.o/
+nfsroot.o/
+sysctl.o/
+fscache.o/
+fscache-index.o/
+nfs2super.o/
+proc.o/
+nfs2xdr.o/
+nfs3super.o/
+nfs3client.o/
+nfs3proc.o/
+nfs3xdr.o/
+nfs3acl.o/
+nfs4proc.o/
+nfs4xdr.o/
+nfs4state.o/
+nfs4renewd.o/
+nfs4super.o/
+nfs4file.o/
+delegation.o/
+nfs4idmap.o/
+callback.o/
+callback_xdr.o/
+callback_proc.o/
+nfs4namespace.o/
+nfs4getroot.o/
+nfs4client.o/
+nfs4session.o/
+dns_resolve.o/
+nfs4trace.o/
+nfs4sysctl.o/
+pnfs.o/
+pnfs_dev.o/
+pnfs_nfs.o/
+nfs42proc.o/
+filelayout/filelayout.o/
+filelayout/filelayoutdev.o/
+/0              0           0     0     644     37432     `
+/10             0           0     0     644     52144     `
+/17             0           0     0     644     21588     `
+/25             0           0     0     644     2860      `
+/36             0           0     0     644     57672     `
+/45             0           0     0     644     59116     `
+/54             0           0     0     644     2588      `
+/60             0           0     0     644     16588     `
+/70             0           0     0     644     26412     `
+/82             0           0     0     644     14512     `
+/90             0           0     0     644     3512      `
+/101            0           0     0     644     9520      `
+/111            0           0     0     644     46812     `
+/120            0           0     0     644     8308      `
+/133            0           0     0     644     5300      `
+/147            0           0     0     644     117204    `
+/159            0           0     0     644     3120      `
+/169            0           0     0     644     4940      `
+/178            0           0     0     644     8548      `
+/189            0           0     0     644     2816      `
+/199            0           0     0     644     9976      `
+/210           /0           0     0     644     3308      `
+/227            0           0     0     644     3120      `
+/240            0           0     0     644     13668     `
+/248            0           0     0     644     11392     `
+/259            0           0     0     644     3164      `
+/272            0           0     0     644     4292      `
+/286            0           0     0     644     15928     `
+/298            0           0     0     644     22168     `
+/309            0           0     0     644     6716      `
+/320            0           0     0     644     130168    `
+/332            0           0     0     644     82480     `
+/343            0           0     0     644     38324     `
+/356            0           0     0     644     3192      `
+/370            0           0     0     644     8560      `
+/383            0           0     0     644     5804      `
+/395            0           0     0     644     15348     `
+/409            0           0     0     644     15340     `
+/422            0           0     0     644     7008      `
+/434            0           0     0     644     11396     `
+/450           /0           0     0     644     9912      `
+/467           /0           0     0     644     7068      `
+/484            0           0     0     644     2248      `
+/499            0           0     0     644     16620     `
+/513            0           0     0     644     9684      `
+/528            0           0     0     644     1912      `
+/543            0           0     0     644     322248    `
+/556            0           0     0     644     3044      `
+/570            0           0     0     644     62096     `
+/578            0           0     0     644     11812     `
+/590            0           0     0     644     24288     `
+/602            0           0     0     644     16196     `
+/615            0           0     0     644     19320     `
+/640           /0           0     0     644     7216      `

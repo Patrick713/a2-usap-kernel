@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/sc16is7xx.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/tty/serial/sc16is7xx.ko drivers/tty/serial/sc16is7xx.o drivers/tty/serial/sc16is7xx.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/dsbr100.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/radio/dsbr100.ko drivers/media/radio/dsbr100.o drivers/media/radio/dsbr100.mod.o;  true

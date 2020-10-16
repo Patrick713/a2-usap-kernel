@@ -1,0 +1,4 @@
+arch/arm/crypto/aes-arm.ko
+arch/arm/crypto/aes-arm-bs.ko
+arch/arm/crypto/sha1-arm.ko
+arch/arm/crypto/sha1-arm-neon.ko

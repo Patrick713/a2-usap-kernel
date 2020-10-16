@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/cx231xx/cx231xx-dvb.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/usb/cx231xx/cx231xx-dvb.ko drivers/media/usb/cx231xx/cx231xx-dvb.o drivers/media/usb/cx231xx/cx231xx-dvb.mod.o;  true

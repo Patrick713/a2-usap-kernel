@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/ath6kl/ath6kl_usb.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/ath/ath6kl/ath6kl_usb.ko drivers/net/wireless/ath/ath6kl/ath6kl_usb.o drivers/net/wireless/ath/ath6kl/ath6kl_usb.mod.o;  true

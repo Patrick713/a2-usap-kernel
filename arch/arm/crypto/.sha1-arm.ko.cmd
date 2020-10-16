@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/sha1-arm.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o arch/arm/crypto/sha1-arm.ko arch/arm/crypto/sha1-arm.o arch/arm/crypto/sha1-arm.mod.o;  true

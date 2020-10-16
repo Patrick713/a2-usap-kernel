@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/tiny/repaper.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/gpu/drm/tiny/repaper.ko drivers/gpu/drm/tiny/repaper.o drivers/gpu/drm/tiny/repaper.mod.o;  true

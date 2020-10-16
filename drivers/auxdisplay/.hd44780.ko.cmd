@@ -1,0 +1,1 @@
+cmd_drivers/auxdisplay/hd44780.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/auxdisplay/hd44780.ko drivers/auxdisplay/hd44780.o drivers/auxdisplay/hd44780.mod.o;  true

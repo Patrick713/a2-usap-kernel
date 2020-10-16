@@ -1,0 +1,1 @@
+cmd_drivers/usb/image/mdc800.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/image/mdc800.ko drivers/usb/image/mdc800.o drivers/usb/image/mdc800.mod.o;  true

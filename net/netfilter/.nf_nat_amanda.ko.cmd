@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_nat_amanda.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/nf_nat_amanda.ko net/netfilter/nf_nat_amanda.o net/netfilter/nf_nat_amanda.mod.o;  true

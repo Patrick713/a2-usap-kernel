@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-hifiberry-dacplushd.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o sound/soc/bcm/snd-soc-hifiberry-dacplushd.ko sound/soc/bcm/snd-soc-hifiberry-dacplushd.o sound/soc/bcm/snd-soc-hifiberry-dacplushd.mod.o;  true

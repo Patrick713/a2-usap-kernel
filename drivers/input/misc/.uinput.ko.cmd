@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/uinput.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/input/misc/uinput.ko drivers/input/misc/uinput.o drivers/input/misc/uinput.mod.o;  true

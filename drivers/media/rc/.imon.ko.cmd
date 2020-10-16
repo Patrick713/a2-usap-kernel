@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/imon.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/rc/imon.ko drivers/media/rc/imon.o drivers/media/rc/imon.mod.o;  true

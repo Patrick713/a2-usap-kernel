@@ -1,0 +1,1 @@
+cmd_drivers/hid/i2c-hid/i2c-hid.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/hid/i2c-hid/i2c-hid.ko drivers/hid/i2c-hid/i2c-hid.o drivers/hid/i2c-hid/i2c-hid.mod.o;  true

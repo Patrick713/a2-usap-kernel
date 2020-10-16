@@ -1,0 +1,1 @@
+cmd_crypto/cast5_generic.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o crypto/cast5_generic.ko crypto/cast5_generic.o crypto/cast5_generic.mod.o;  true

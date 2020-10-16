@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_IDLETIMER.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/xt_IDLETIMER.ko net/netfilter/xt_IDLETIMER.o net/netfilter/xt_IDLETIMER.mod.o;  true

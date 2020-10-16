@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/usblcd.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/misc/usblcd.ko drivers/usb/misc/usblcd.o drivers/usb/misc/usblcd.mod.o;  true

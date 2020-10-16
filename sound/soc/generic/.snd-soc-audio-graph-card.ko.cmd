@@ -1,0 +1,1 @@
+cmd_sound/soc/generic/snd-soc-audio-graph-card.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o sound/soc/generic/snd-soc-audio-graph-card.ko sound/soc/generic/snd-soc-audio-graph-card.o sound/soc/generic/snd-soc-audio-graph-card.mod.o;  true

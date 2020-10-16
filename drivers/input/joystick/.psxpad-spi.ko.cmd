@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/psxpad-spi.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/input/joystick/psxpad-spi.ko drivers/input/joystick/psxpad-spi.o drivers/input/joystick/psxpad-spi.mod.o;  true

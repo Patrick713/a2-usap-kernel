@@ -1,0 +1,20 @@
+!<thin>
+//                                              152       `
+gpiolib.o/
+gpiolib-devres.o/
+gpiolib-legacy.o/
+gpiolib-devprop.o/
+gpiolib-of.o/
+gpiolib-sysfs.o/
+gpio-bcm-virt.o/
+gpio-raspberrypi-exp.o/
+gpio-stmpe.o/
+/0              0           0     0     644     123164    `
+/11             0           0     0     644     17024     `
+/29             0           0     0     644     6260      `
+/47             0           0     0     644     3128      `
+/66             0           0     0     644     15584     `
+/80            /0           0     0     644     15560     `
+/97            /0           0     0     644     7400      `
+/114            0           0     0     644     7672      `
+/138            0           0     0     644     10336     `

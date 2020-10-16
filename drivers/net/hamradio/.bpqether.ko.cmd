@@ -1,0 +1,1 @@
+cmd_drivers/net/hamradio/bpqether.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/hamradio/bpqether.ko drivers/net/hamradio/bpqether.o drivers/net/hamradio/bpqether.mod.o;  true

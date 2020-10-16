@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-ak4554.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o sound/soc/codecs/snd-soc-ak4554.ko sound/soc/codecs/snd-soc-ak4554.o sound/soc/codecs/snd-soc-ak4554.mod.o;  true

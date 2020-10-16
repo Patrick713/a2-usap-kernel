@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-roccat-savu.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/hid/hid-roccat-savu.ko drivers/hid/hid-roccat-savu.o drivers/hid/hid-roccat-savu.mod.o;  true

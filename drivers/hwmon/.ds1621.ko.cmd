@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/ds1621.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/hwmon/ds1621.ko drivers/hwmon/ds1621.o drivers/hwmon/ds1621.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/tiny/ili9341.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/gpu/drm/tiny/ili9341.ko drivers/gpu/drm/tiny/ili9341.o drivers/gpu/drm/tiny/ili9341.mod.o;  true

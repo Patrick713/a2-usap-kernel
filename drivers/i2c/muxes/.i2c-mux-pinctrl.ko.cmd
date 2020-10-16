@@ -1,0 +1,1 @@
+cmd_drivers/i2c/muxes/i2c-mux-pinctrl.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/i2c/muxes/i2c-mux-pinctrl.ko drivers/i2c/muxes/i2c-mux-pinctrl.o drivers/i2c/muxes/i2c-mux-pinctrl.mod.o;  true

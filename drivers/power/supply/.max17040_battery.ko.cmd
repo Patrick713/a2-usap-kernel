@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/max17040_battery.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/power/supply/max17040_battery.ko drivers/power/supply/max17040_battery.o drivers/power/supply/max17040_battery.mod.o;  true

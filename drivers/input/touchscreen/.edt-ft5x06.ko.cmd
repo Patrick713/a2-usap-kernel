@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/edt-ft5x06.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/input/touchscreen/edt-ft5x06.ko drivers/input/touchscreen/edt-ft5x06.o drivers/input/touchscreen/edt-ft5x06.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-gpio.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/i2c/busses/i2c-gpio.ko drivers/i2c/busses/i2c-gpio.o drivers/i2c/busses/i2c-gpio.mod.o;  true

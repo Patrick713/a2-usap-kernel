@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/dib0090.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/dvb-frontends/dib0090.ko drivers/media/dvb-frontends/dib0090.o drivers/media/dvb-frontends/dib0090.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/ums-cypress.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/storage/ums-cypress.ko drivers/usb/storage/ums-cypress.o drivers/usb/storage/ums-cypress.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/rpi-poe-fan.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/hwmon/rpi-poe-fan.ko drivers/hwmon/rpi-poe-fan.o drivers/hwmon/rpi-poe-fan.mod.o;  true

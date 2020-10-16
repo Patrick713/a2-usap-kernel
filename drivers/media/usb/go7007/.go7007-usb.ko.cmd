@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/go7007/go7007-usb.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/usb/go7007/go7007-usb.ko drivers/media/usb/go7007/go7007-usb.o drivers/media/usb/go7007/go7007-usb.mod.o;  true

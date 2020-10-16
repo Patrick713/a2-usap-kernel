@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/rtl2830.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/dvb-frontends/rtl2830.ko drivers/media/dvb-frontends/rtl2830.o drivers/media/dvb-frontends/rtl2830.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/u_ether.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/gadget/function/u_ether.ko drivers/usb/gadget/function/u_ether.o drivers/usb/gadget/function/u_ether.mod.o;  true

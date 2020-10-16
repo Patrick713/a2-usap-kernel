@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/raspberrypi-ts.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/input/touchscreen/raspberrypi-ts.ko drivers/input/touchscreen/raspberrypi-ts.o drivers/input/touchscreen/raspberrypi-ts.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_sound/drivers/mpu401/snd-mpu401-uart.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o sound/drivers/mpu401/snd-mpu401-uart.ko sound/drivers/mpu401/snd-mpu401-uart.o sound/drivers/mpu401/snd-mpu401-uart.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_numgen.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/nft_numgen.ko net/netfilter/nft_numgen.o net/netfilter/nft_numgen.mod.o;  true

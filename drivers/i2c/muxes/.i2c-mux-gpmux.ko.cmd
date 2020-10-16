@@ -1,0 +1,1 @@
+cmd_drivers/i2c/muxes/i2c-mux-gpmux.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/i2c/muxes/i2c-mux-gpmux.ko drivers/i2c/muxes/i2c-mux-gpmux.o drivers/i2c/muxes/i2c-mux-gpmux.mod.o;  true

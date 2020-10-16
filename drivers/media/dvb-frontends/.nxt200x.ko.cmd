@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/nxt200x.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/dvb-frontends/nxt200x.ko drivers/media/dvb-frontends/nxt200x.o drivers/media/dvb-frontends/nxt200x.mod.o;  true

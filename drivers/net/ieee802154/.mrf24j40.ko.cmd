@@ -1,0 +1,1 @@
+cmd_drivers/net/ieee802154/mrf24j40.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/ieee802154/mrf24j40.ko drivers/net/ieee802154/mrf24j40.o drivers/net/ieee802154/mrf24j40.mod.o;  true

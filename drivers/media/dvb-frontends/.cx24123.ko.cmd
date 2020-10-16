@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/cx24123.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/dvb-frontends/cx24123.ko drivers/media/dvb-frontends/cx24123.o drivers/media/dvb-frontends/cx24123.mod.o;  true

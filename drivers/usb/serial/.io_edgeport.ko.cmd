@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/io_edgeport.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/serial/io_edgeport.ko drivers/usb/serial/io_edgeport.o drivers/usb/serial/io_edgeport.mod.o;  true

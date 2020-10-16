@@ -1,0 +1,1 @@
+cmd_lib/zlib_deflate/zlib_deflate.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o lib/zlib_deflate/zlib_deflate.ko lib/zlib_deflate/zlib_deflate.o lib/zlib_deflate/zlib_deflate.mod.o;  true

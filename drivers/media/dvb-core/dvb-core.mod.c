@@ -1,0 +1,158 @@
+#include <linux/build-salt.h>
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(.gnu.linkonce.this_module) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section(__versions) = {
+	{ 0xe9942317, "module_layout" },
+	{ 0x92b57248, "flush_work" },
+	{ 0x2d3385d3, "system_wq" },
+	{ 0xa24f23d8, "__request_module" },
+	{ 0xa4ab8272, "cdev_del" },
+	{ 0xf4610713, "kmalloc_caches" },
+	{ 0x2d6fcc06, "__kmalloc" },
+	{ 0xad534415, "cdev_init" },
+	{ 0xc4f0da12, "ktime_get_with_offset" },
+	{ 0xf9a482f9, "msleep" },
+	{ 0xff178f6, "__aeabi_idivmod" },
+	{ 0xa7b3181c, "up_read" },
+	{ 0xd6ee688f, "vmalloc" },
+	{ 0x9a152689, "param_ops_int" },
+	{ 0x2b68bd2f, "del_timer" },
+	{ 0x97255bdf, "strlen" },
+	{ 0x6c4fbb46, "media_device_unregister_entity" },
+	{ 0x3fd78f3b, "register_chrdev_region" },
+	{ 0xeabf73e2, "media_devnode_create" },
+	{ 0x60bffe6d, "div64_u64" },
+	{ 0x7ab88a45, "system_freezing_cnt" },
+	{ 0x2b5ab97d, "_raw_spin_lock_bh" },
+	{ 0xf7802486, "__aeabi_uidivmod" },
+	{ 0xca5a7528, "down_interruptible" },
+	{ 0xb43f9365, "ktime_get" },
+	{ 0xda800db5, "device_destroy" },
+	{ 0xb1b939e, "kmemdup" },
+	{ 0xb1ad28e0, "__gnu_mcount_nc" },
+	{ 0xc6f46339, "init_timer_key" },
+	{ 0xae353d77, "arm_copy_from_user" },
+	{ 0x67ea780, "mutex_unlock" },
+	{ 0x6091b333, "unregister_chrdev_region" },
+	{ 0x999e8297, "vfree" },
+	{ 0xeea0399, "strscpy" },
+	{ 0xbe9a4121, "media_get_pad_index" },
+	{ 0xd697e69a, "trace_hardirqs_on" },
+	{ 0xdd34010a, "kthread_create_on_node" },
+	{ 0x526c3a6c, "jiffies" },
+	{ 0x51a910c0, "arm_copy_to_user" },
+	{ 0xfb1d7438, "down_read" },
+	{ 0xfb384d37, "kasprintf" },
+	{ 0x718ae3f2, "__netdev_alloc_skb" },
+	{ 0x927d2b0f, "netif_rx" },
+	{ 0x5bbe49f4, "__init_waitqueue_head" },
+	{ 0xf65110e8, "_dev_warn" },
+	{ 0x5f754e5a, "memset" },
+	{ 0x83673cbf, "default_llseek" },
+	{ 0x39a12ca7, "_raw_spin_unlock_irqrestore" },
+	{ 0x86dbf1e, "freezing_slow_path" },
+	{ 0x3375510b, "mutex_lock_interruptible" },
+	{ 0xe346f67a, "__mutex_init" },
+	{ 0xc5850110, "printk" },
+	{ 0x7bfbe88e, "kthread_stop" },
+	{ 0x71c90087, "memcmp" },
+	{ 0x9690c99b, "media_entity_pads_init" },
+	{ 0xbadd1a4b, "free_netdev" },
+	{ 0xa1c76e0a, "_cond_resched" },
+	{ 0xcc7044cf, "register_netdev" },
+	{ 0x84b183ae, "strncmp" },
+	{ 0xf68b0045, "skb_push" },
+	{ 0xc271c3be, "mutex_lock" },
+	{ 0xf0ef52e8, "down" },
+	{ 0x36ac7fd0, "noop_llseek" },
+	{ 0x13e86e9b, "device_create" },
+	{ 0xc1e58a5f, "refcount_dec_and_test_checked" },
+	{ 0x24d273d1, "add_timer" },
+	{ 0x8e865d3c, "arm_delay_ops" },
+	{ 0x28f7fb79, "skb_pull" },
+	{ 0xe52760d4, "i2c_unregister_device" },
+	{ 0x7e0ce0c3, "up_write" },
+	{ 0x7fa795f, "_dev_err" },
+	{ 0x4253aa7e, "down_write" },
+	{ 0xfe487975, "init_wait_entry" },
+	{ 0x66d87d38, "symbol_put_addr" },
+	{ 0x570c6c9a, "cdev_add" },
+	{ 0x4dc17984, "media_device_register_entity" },
+	{ 0x12b548f6, "module_put" },
+	{ 0xc6cbbc89, "capable" },
+	{ 0x3eabc38c, "_dev_info" },
+	{ 0x12a38747, "usleep_range" },
+	{ 0x8f3625fe, "_raw_spin_unlock_bh" },
+	{ 0xdecd0b29, "__stack_chk_fail" },
+	{ 0x9b035330, "eth_header_parse" },
+	{ 0x1000e51, "schedule" },
+	{ 0x8ddd8aad, "schedule_timeout" },
+	{ 0x2da81bff, "_raw_spin_lock_irq" },
+	{ 0x5c5b2589, "alloc_netdev_mqs" },
+	{ 0x4482cdb, "__refrigerator" },
+	{ 0xa597670a, "media_create_pad_link" },
+	{ 0xb35d51ab, "wake_up_process" },
+	{ 0x10b14b78, "media_create_pad_links" },
+	{ 0x18082420, "media_create_intf_link" },
+	{ 0xabf7ad06, "ether_setup" },
+	{ 0xcc5005fe, "msleep_interruptible" },
+	{ 0xebaa9dc8, "kmem_cache_alloc_trace" },
+	{ 0xdb9ca3c5, "_raw_spin_lock" },
+	{ 0x5f849a69, "_raw_spin_lock_irqsave" },
+	{ 0x3dcf1ffa, "__wake_up" },
+	{ 0xb3f7646e, "kthread_should_stop" },
+	{ 0x647af474, "prepare_to_wait_event" },
+	{ 0x12bc1f9d, "eth_validate_addr" },
+	{ 0x2cfde9a2, "warn_slowpath_fmt" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x9d669763, "memcpy" },
+	{ 0x943dc8aa, "crc32_be" },
+	{ 0x9e61bb05, "set_freezable" },
+	{ 0x6128b5fc, "__printk_ratelimit" },
+	{ 0x581cde4e, "up" },
+	{ 0x254652b1, "class_destroy" },
+	{ 0x49970de8, "finish_wait" },
+	{ 0xdea8fa68, "unregister_netdev" },
+	{ 0x8f678b07, "__stack_chk_guard" },
+	{ 0xe2e8065e, "memdup_user" },
+	{ 0xb2d48a2e, "queue_work_on" },
+	{ 0xc358aaf8, "snprintf" },
+	{ 0xa46a0f7a, "consume_skb" },
+	{ 0x1ee8d6d4, "refcount_inc_checked" },
+	{ 0xeab3fd69, "skb_put" },
+	{ 0xe6d85203, "__class_create" },
+	{ 0x7e3aa9b7, "i2c_new_device" },
+	{ 0x3a4f15a3, "eth_header" },
+	{ 0x717bcdac, "try_module_get" },
+	{ 0xf463ef51, "media_devnode_remove" },
+	{ 0x719e0e44, "add_uevent_var" },
+};
+
+MODULE_INFO(depends, "mc");
+
+
+MODULE_INFO(srcversion, "31DB59060647438B65FBE05");

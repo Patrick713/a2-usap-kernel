@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_TRACE.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/xt_TRACE.ko net/netfilter/xt_TRACE.o net/netfilter/xt_TRACE.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/imx290.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/i2c/imx290.ko drivers/media/i2c/imx290.o drivers/media/i2c/imx290.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/btwilink.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/bluetooth/btwilink.ko drivers/bluetooth/btwilink.o drivers/bluetooth/btwilink.mod.o;  true

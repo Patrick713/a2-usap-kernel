@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/wiznet/w5100-spi.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/ethernet/wiznet/w5100-spi.ko drivers/net/ethernet/wiznet/w5100-spi.o drivers/net/ethernet/wiznet/w5100-spi.mod.o;  true

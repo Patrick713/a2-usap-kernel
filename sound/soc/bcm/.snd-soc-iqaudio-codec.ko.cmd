@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-iqaudio-codec.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o sound/soc/bcm/snd-soc-iqaudio-codec.ko sound/soc/bcm/snd-soc-iqaudio-codec.o sound/soc/bcm/snd-soc-iqaudio-codec.mod.o;  true

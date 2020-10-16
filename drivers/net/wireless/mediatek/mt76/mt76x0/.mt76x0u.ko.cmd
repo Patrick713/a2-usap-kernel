@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0u.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0u.ko drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0u.o drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0u.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_fib_inet.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/nft_fib_inet.ko net/netfilter/nft_fib_inet.o net/netfilter/nft_fib_inet.mod.o;  true

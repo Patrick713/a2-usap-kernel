@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/intersil/p54/p54common.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/intersil/p54/p54common.ko drivers/net/wireless/intersil/p54/p54common.o drivers/net/wireless/intersil/p54/p54common.mod.o;  true

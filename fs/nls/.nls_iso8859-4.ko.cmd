@@ -1,0 +1,1 @@
+cmd_fs/nls/nls_iso8859-4.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o fs/nls/nls_iso8859-4.ko fs/nls/nls_iso8859-4.o fs/nls/nls_iso8859-4.mod.o;  true

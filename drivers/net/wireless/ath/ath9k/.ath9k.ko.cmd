@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/ath9k/ath9k.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/wireless/ath/ath9k/ath9k.ko drivers/net/wireless/ath/ath9k/ath9k.o drivers/net/wireless/ath/ath9k/ath9k.mod.o;  true

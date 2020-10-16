@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_tables_set.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/nf_tables_set.ko net/netfilter/nf_tables_set.o net/netfilter/nf_tables_set.mod.o;  true

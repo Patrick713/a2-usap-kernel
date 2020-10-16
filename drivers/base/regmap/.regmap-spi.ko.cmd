@@ -1,0 +1,1 @@
+cmd_drivers/base/regmap/regmap-spi.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/base/regmap/regmap-spi.ko drivers/base/regmap/regmap-spi.o drivers/base/regmap/regmap-spi.mod.o;  true

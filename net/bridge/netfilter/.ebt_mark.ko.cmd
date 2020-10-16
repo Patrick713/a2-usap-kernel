@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebt_mark.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/bridge/netfilter/ebt_mark.ko net/bridge/netfilter/ebt_mark.o net/bridge/netfilter/ebt_mark.mod.o;  true

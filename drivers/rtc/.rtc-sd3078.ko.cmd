@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-sd3078.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/rtc/rtc-sd3078.ko drivers/rtc/rtc-sd3078.o drivers/rtc/rtc-sd3078.mod.o;  true

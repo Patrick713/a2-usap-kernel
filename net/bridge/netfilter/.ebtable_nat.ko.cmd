@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebtable_nat.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/bridge/netfilter/ebtable_nat.ko net/bridge/netfilter/ebtable_nat.o net/bridge/netfilter/ebtable_nat.mod.o;  true

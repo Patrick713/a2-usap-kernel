@@ -1,0 +1,1 @@
+cmd_drivers/usb/class/usbtmc.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/class/usbtmc.ko drivers/usb/class/usbtmc.o drivers/usb/class/usbtmc.mod.o;  true

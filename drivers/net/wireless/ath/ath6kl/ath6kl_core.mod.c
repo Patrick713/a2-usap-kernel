@@ -1,0 +1,146 @@
+#include <linux/build-salt.h>
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(.gnu.linkonce.this_module) = {
+	.name = KBUILD_MODNAME,
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section(__versions) = {
+	{ 0xe9942317, "module_layout" },
+	{ 0xf6c8eae0, "register_netdevice" },
+	{ 0xf4610713, "kmalloc_caches" },
+	{ 0x2d6fcc06, "__kmalloc" },
+	{ 0xff178f6, "__aeabi_idivmod" },
+	{ 0xc054b169, "wiphy_free" },
+	{ 0x5c32a221, "cfg80211_connect_done" },
+	{ 0xd6ee688f, "vmalloc" },
+	{ 0x2b68bd2f, "del_timer" },
+	{ 0xd87c7d64, "cfg80211_inform_bss_data" },
+	{ 0xe1db0560, "cfg80211_conn_failed" },
+	{ 0xc7a4fbed, "rtnl_lock" },
+	{ 0xcaac5422, "cfg80211_chandef_create" },
+	{ 0xa513fc17, "netif_carrier_on" },
+	{ 0x2b5ab97d, "_raw_spin_lock_bh" },
+	{ 0xf7802486, "__aeabi_uidivmod" },
+	{ 0xb23c7123, "skb_copy" },
+	{ 0xca5a7528, "down_interruptible" },
+	{ 0x2a3aa678, "_test_and_clear_bit" },
+	{ 0xa35dc8c8, "netif_carrier_off" },
+	{ 0x4205ad24, "cancel_work_sync" },
+	{ 0xb1b939e, "kmemdup" },
+	{ 0x2c246f2e, "cfg80211_rx_mgmt" },
+	{ 0xb1ad28e0, "__gnu_mcount_nc" },
+	{ 0xc6f46339, "init_timer_key" },
+	{ 0x67ea780, "mutex_unlock" },
+	{ 0x999e8297, "vfree" },
+	{ 0x526c3a6c, "jiffies" },
+	{ 0x23907784, "cfg80211_check_station_change" },
+	{ 0x65465214, "skb_trim" },
+	{ 0x9bc43674, "cfg80211_mgmt_tx_status" },
+	{ 0x718ae3f2, "__netdev_alloc_skb" },
+	{ 0x5bbe49f4, "__init_waitqueue_head" },
+	{ 0xe707d823, "__aeabi_uidiv" },
+	{ 0x97934ecf, "del_timer_sync" },
+	{ 0x2d9ecd4c, "skb_queue_purge" },
+	{ 0xffda1156, "cfg80211_pmksa_candidate_notify" },
+	{ 0x5f754e5a, "memset" },
+	{ 0x80df3806, "netif_rx_ni" },
+	{ 0x7d6174de, "netif_tx_wake_queue" },
+	{ 0x8c9c5f5c, "cfg80211_get_bss" },
+	{ 0xc5850110, "printk" },
+	{ 0x6d0a78c4, "ethtool_op_get_link" },
+	{ 0x71c90087, "memcmp" },
+	{ 0xbadd1a4b, "free_netdev" },
+	{ 0xb11cef3a, "wiphy_unregister" },
+	{ 0xa1c76e0a, "_cond_resched" },
+	{ 0x31036d8, "cfg80211_del_sta_sinfo" },
+	{ 0x1f2bfc01, "ieee80211_get_channel" },
+	{ 0x73e20c1c, "strlcpy" },
+	{ 0xf68b0045, "skb_push" },
+	{ 0xc271c3be, "mutex_lock" },
+	{ 0x8c03d20c, "destroy_workqueue" },
+	{ 0x81dab1d2, "cfg80211_michael_mic_failure" },
+	{ 0xc38c83b8, "mod_timer" },
+	{ 0x8e865d3c, "arm_delay_ops" },
+	{ 0x28f7fb79, "skb_pull" },
+	{ 0x60fd9655, "cfg80211_ibss_joined" },
+	{ 0xfe487975, "init_wait_entry" },
+	{ 0x2196324, "__aeabi_idiv" },
+	{ 0xb61ec4fa, "cfg80211_get_drvinfo" },
+	{ 0x9d6cba30, "cfg80211_find_elem_match" },
+	{ 0xac6659eb, "skb_queue_tail" },
+	{ 0x8a4d2069, "skb_copy_expand" },
+	{ 0xf7b258ca, "cfg80211_ch_switch_notify" },
+	{ 0xf08c572a, "cfg80211_roamed" },
+	{ 0x44b28538, "cfg80211_put_bss" },
+	{ 0x64e7226d, "wiphy_register" },
+	{ 0x8f3625fe, "_raw_spin_unlock_bh" },
+	{ 0xdecd0b29, "__stack_chk_fail" },
+	{ 0x8ddd8aad, "schedule_timeout" },
+	{ 0xd28c75bb, "kfree_skb" },
+	{ 0xd2a5dcba, "cfg80211_ready_on_channel" },
+	{ 0x766c3475, "wiphy_new_nm" },
+	{ 0x5c5b2589, "alloc_netdev_mqs" },
+	{ 0xc4e588b, "eth_type_trans" },
+	{ 0xb6ded002, "of_find_compatible_node" },
+	{ 0xa748a031, "pskb_expand_head" },
+	{ 0xf7bc2652, "of_get_property" },
+	{ 0xabf7ad06, "ether_setup" },
+	{ 0xcc5005fe, "msleep_interruptible" },
+	{ 0xa35989df, "cfg80211_disconnected" },
+	{ 0xebaa9dc8, "kmem_cache_alloc_trace" },
+	{ 0x921dbd43, "netdev_set_default_ethtool_ops" },
+	{ 0x4d0ad59d, "unregister_netdevice_queue" },
+	{ 0x9e4dc2a5, "cfg80211_new_sta" },
+	{ 0x3dcf1ffa, "__wake_up" },
+	{ 0x647af474, "prepare_to_wait_event" },
+	{ 0x2cfde9a2, "warn_slowpath_fmt" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x7c816134, "regulatory_hint" },
+	{ 0x9d669763, "memcpy" },
+	{ 0x581cde4e, "up" },
+	{ 0x314b20c8, "scnprintf" },
+	{ 0x836b5cfc, "request_firmware" },
+	{ 0x49970de8, "finish_wait" },
+	{ 0x4ac49f05, "skb_dequeue" },
+	{ 0x1674596a, "cfg80211_remain_on_channel_expired" },
+	{ 0x8f678b07, "__stack_chk_guard" },
+	{ 0x676bbc0f, "_set_bit" },
+	{ 0xb2d48a2e, "queue_work_on" },
+	{ 0xc358aaf8, "snprintf" },
+	{ 0x99bb8806, "memmove" },
+	{ 0xa46a0f7a, "consume_skb" },
+	{ 0x41dd3c76, "cfg80211_sched_scan_stopped" },
+	{ 0x7f02188f, "__msecs_to_jiffies" },
+	{ 0x91731203, "cfg80211_scan_done" },
+	{ 0x49ebacbd, "_clear_bit" },
+	{ 0xeab3fd69, "skb_put" },
+	{ 0xfeb02014, "of_node_put" },
+	{ 0x8a331d2b, "param_ops_uint" },
+	{ 0xdf9208c0, "alloc_workqueue" },
+	{ 0x8b6486ce, "release_firmware" },
+	{ 0x6e720ff2, "rtnl_unlock" },
+	{ 0x407d2bc1, "cfg80211_cqm_txe_notify" },
+	{ 0x4ea6ee7c, "cfg80211_sched_scan_results" },
+};
+
+MODULE_INFO(depends, "cfg80211");
+
+
+MODULE_INFO(srcversion, "A94C23ED8141B8A5A47BA59");

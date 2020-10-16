@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-justboom-both.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o sound/soc/bcm/snd-soc-justboom-both.ko sound/soc/bcm/snd-soc-justboom-both.o sound/soc/bcm/snd-soc-justboom-both.mod.o;  true

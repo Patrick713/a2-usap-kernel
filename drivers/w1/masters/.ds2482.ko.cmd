@@ -1,0 +1,1 @@
+cmd_drivers/w1/masters/ds2482.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/w1/masters/ds2482.ko drivers/w1/masters/ds2482.o drivers/w1/masters/ds2482.mod.o;  true

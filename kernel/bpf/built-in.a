@@ -1,0 +1,47 @@
+!<thin>
+//                                              270       `
+core.o/
+syscall.o/
+verifier.o/
+inode.o/
+helpers.o/
+tnum.o/
+hashtab.o/
+arraymap.o/
+percpu_freelist.o/
+bpf_lru_list.o/
+lpm_trie.o/
+map_in_map.o/
+local_storage.o/
+queue_stack_maps.o/
+disasm.o/
+btf.o/
+devmap.o/
+cpumap.o/
+offload.o/
+stackmap.o/
+cgroup.o/
+reuseport_array.o/
+
+/0              0           0     0     644     73804     `
+/8              0           0     0     644     46488     `
+/19             0           0     0     644     107500    `
+/31             0           0     0     644     13580     `
+/40             0           0     0     644     7868      `
+/51             0           0     0     644     5832      `
+/59             0           0     0     644     21344     `
+/70             0           0     0     644     13692     `
+/82             0           0     0     644     4112      `
+/101            0           0     0     644     7820      `
+/117            0           0     0     644     5532      `
+/129            0           0     0     644     3040      `
+/143           /0           0     0     644     9200      `
+/160            0           0     0     644     4812      `
+/180            0           0     0     644     10368     `
+/190            0           0     0     644     40736     `
+/197            0           0     0     644     11648     `
+/207            0           0     0     644     11412     `
+/217            0           0     0     644     20780     `
+/228            0           0     0     644     10204     `
+/240            0           0     0     644     34664     `
+/250            0           0     0     644     5012      `

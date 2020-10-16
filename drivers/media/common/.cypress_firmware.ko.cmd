@@ -1,0 +1,1 @@
+cmd_drivers/media/common/cypress_firmware.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/common/cypress_firmware.ko drivers/media/common/cypress_firmware.o drivers/media/common/cypress_firmware.mod.o;  true

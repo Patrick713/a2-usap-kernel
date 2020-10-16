@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/rpi_backlight.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/video/backlight/rpi_backlight.ko drivers/video/backlight/rpi_backlight.o drivers/video/backlight/rpi_backlight.mod.o;  true

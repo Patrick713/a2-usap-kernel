@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-isl12022.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/rtc/rtc-isl12022.ko drivers/rtc/rtc-isl12022.o drivers/rtc/rtc-isl12022.mod.o;  true

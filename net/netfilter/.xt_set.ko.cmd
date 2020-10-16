@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_set.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/xt_set.ko net/netfilter/xt_set.o net/netfilter/xt_set.mod.o;  true

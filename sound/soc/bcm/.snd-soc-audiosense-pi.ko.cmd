@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-audiosense-pi.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o sound/soc/bcm/snd-soc-audiosense-pi.ko sound/soc/bcm/snd-soc-audiosense-pi.o sound/soc/bcm/snd-soc-audiosense-pi.mod.o;  true

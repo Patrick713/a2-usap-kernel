@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb-v2/dvb-usb-af9015.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/usb/dvb-usb-v2/dvb-usb-af9015.ko drivers/media/usb/dvb-usb-v2/dvb-usb-af9015.o drivers/media/usb/dvb-usb-v2/dvb-usb-af9015.mod.o;  true

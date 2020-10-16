@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/digi_acceleport.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/serial/digi_acceleport.ko drivers/usb/serial/digi_acceleport.o drivers/usb/serial/digi_acceleport.mod.o;  true

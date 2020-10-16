@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-waltop.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/hid/hid-waltop.ko drivers/hid/hid-waltop.o drivers/hid/hid-waltop.mod.o;  true

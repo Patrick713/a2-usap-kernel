@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-roccat-isku.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/hid/hid-roccat-isku.ko drivers/hid/hid-roccat-isku.o drivers/hid/hid-roccat-isku.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_sound/soc/generic/snd-soc-simple-card-utils.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o sound/soc/generic/snd-soc-simple-card-utils.ko sound/soc/generic/snd-soc-simple-card-utils.o sound/soc/generic/snd-soc-simple-card-utils.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/redrat3.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/rc/redrat3.ko drivers/media/rc/redrat3.o drivers/media/rc/redrat3.mod.o;  true

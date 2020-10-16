@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/saa7706h.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/radio/saa7706h.ko drivers/media/radio/saa7706h.o drivers/media/radio/saa7706h.mod.o;  true

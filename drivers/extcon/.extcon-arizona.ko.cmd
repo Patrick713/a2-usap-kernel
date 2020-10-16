@@ -1,0 +1,1 @@
+cmd_drivers/extcon/extcon-arizona.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/extcon/extcon-arizona.ko drivers/extcon/extcon-arizona.o drivers/extcon/extcon-arizona.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/usb/class/cdc-acm.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/class/cdc-acm.ko drivers/usb/class/cdc-acm.o drivers/usb/class/cdc-acm.mod.o;  true

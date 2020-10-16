@@ -1,0 +1,1 @@
+cmd_drivers/char/tpm/tpm_tis_core.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/char/tpm/tpm_tis_core.ko drivers/char/tpm/tpm_tis_core.o drivers/char/tpm/tpm_tis_core.mod.o;  true

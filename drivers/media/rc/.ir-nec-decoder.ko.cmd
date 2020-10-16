@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/ir-nec-decoder.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/rc/ir-nec-decoder.ko drivers/media/rc/ir-nec-decoder.o drivers/media/rc/ir-nec-decoder.mod.o;  true

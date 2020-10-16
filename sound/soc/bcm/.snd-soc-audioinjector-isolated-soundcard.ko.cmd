@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-audioinjector-isolated-soundcard.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o sound/soc/bcm/snd-soc-audioinjector-isolated-soundcard.ko sound/soc/bcm/snd-soc-audioinjector-isolated-soundcard.o sound/soc/bcm/snd-soc-audioinjector-isolated-soundcard.mod.o;  true

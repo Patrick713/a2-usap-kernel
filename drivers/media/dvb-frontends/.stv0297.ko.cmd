@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/stv0297.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/dvb-frontends/stv0297.ko drivers/media/dvb-frontends/stv0297.o drivers/media/dvb-frontends/stv0297.mod.o;  true

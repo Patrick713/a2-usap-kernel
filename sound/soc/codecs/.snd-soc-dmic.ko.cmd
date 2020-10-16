@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-dmic.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o sound/soc/codecs/snd-soc-dmic.ko sound/soc/codecs/snd-soc-dmic.o sound/soc/codecs/snd-soc-dmic.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-sigmadsp.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o sound/soc/codecs/snd-soc-sigmadsp.ko sound/soc/codecs/snd-soc-sigmadsp.o sound/soc/codecs/snd-soc-sigmadsp.mod.o;  true

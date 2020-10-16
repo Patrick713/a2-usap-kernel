@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_dup_netdev.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/netfilter/nf_dup_netdev.ko net/netfilter/nf_dup_netdev.o net/netfilter/nf_dup_netdev.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/iforce/iforce-usb.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/input/joystick/iforce/iforce-usb.ko drivers/input/joystick/iforce/iforce-usb.o drivers/input/joystick/iforce/iforce-usb.mod.o;  true

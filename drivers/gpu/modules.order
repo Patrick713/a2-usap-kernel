@@ -1,0 +1,14 @@
+drivers/gpu/drm/panel/panel-simple.ko
+drivers/gpu/drm/panel/panel-raspberrypi-touchscreen.ko
+drivers/gpu/drm/tiny/ili9225.ko
+drivers/gpu/drm/tiny/ili9341.ko
+drivers/gpu/drm/tiny/mi0283qt.ko
+drivers/gpu/drm/tiny/repaper.ko
+drivers/gpu/drm/tiny/st7586.ko
+drivers/gpu/drm/tiny/st7735r.ko
+drivers/gpu/drm/drm_kms_helper.ko
+drivers/gpu/drm/drm.ko
+drivers/gpu/drm/drm_mipi_dbi.ko
+drivers/gpu/drm/drm_panel_orientation_quirks.ko
+drivers/gpu/drm/vc4/vc4.ko
+drivers/gpu/drm/udl/udl.ko

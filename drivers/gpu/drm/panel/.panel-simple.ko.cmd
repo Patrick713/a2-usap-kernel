@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/panel/panel-simple.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/gpu/drm/panel/panel-simple.ko drivers/gpu/drm/panel/panel-simple.o drivers/gpu/drm/panel/panel-simple.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/garmin_gps.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/serial/garmin_gps.ko drivers/usb/serial/garmin_gps.o drivers/usb/serial/garmin_gps.mod.o;  true

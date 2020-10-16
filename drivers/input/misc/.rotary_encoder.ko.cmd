@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/rotary_encoder.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/input/misc/rotary_encoder.ko drivers/input/misc/rotary_encoder.o drivers/input/misc/rotary_encoder.mod.o;  true

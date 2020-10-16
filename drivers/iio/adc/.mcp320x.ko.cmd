@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/mcp320x.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/iio/adc/mcp320x.ko drivers/iio/adc/mcp320x.o drivers/iio/adc/mcp320x.mod.o;  true

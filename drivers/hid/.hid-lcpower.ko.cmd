@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-lcpower.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/hid/hid-lcpower.ko drivers/hid/hid-lcpower.o drivers/hid/hid-lcpower.mod.o;  true

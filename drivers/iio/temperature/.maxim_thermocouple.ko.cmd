@@ -1,0 +1,1 @@
+cmd_drivers/iio/temperature/maxim_thermocouple.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/iio/temperature/maxim_thermocouple.ko drivers/iio/temperature/maxim_thermocouple.o drivers/iio/temperature/maxim_thermocouple.mod.o;  true

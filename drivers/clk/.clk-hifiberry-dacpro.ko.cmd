@@ -1,0 +1,1 @@
+cmd_drivers/clk/clk-hifiberry-dacpro.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/clk/clk-hifiberry-dacpro.ko drivers/clk/clk-hifiberry-dacpro.o drivers/clk/clk-hifiberry-dacpro.mod.o;  true

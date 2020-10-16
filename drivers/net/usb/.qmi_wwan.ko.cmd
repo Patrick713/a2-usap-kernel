@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/qmi_wwan.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/usb/qmi_wwan.ko drivers/net/usb/qmi_wwan.o drivers/net/usb/qmi_wwan.mod.o;  true

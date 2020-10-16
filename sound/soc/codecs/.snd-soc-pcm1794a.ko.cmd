@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-pcm1794a.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o sound/soc/codecs/snd-soc-pcm1794a.ko sound/soc/codecs/snd-soc-pcm1794a.o sound/soc/codecs/snd-soc-pcm1794a.mod.o;  true

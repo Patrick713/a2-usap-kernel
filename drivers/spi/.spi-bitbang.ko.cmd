@@ -1,0 +1,1 @@
+cmd_drivers/spi/spi-bitbang.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/spi/spi-bitbang.ko drivers/spi/spi-bitbang.o drivers/spi/spi-bitbang.mod.o;  true

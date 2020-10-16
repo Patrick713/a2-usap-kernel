@@ -1,0 +1,1 @@
+cmd_net/ieee802154/6lowpan/ieee802154_6lowpan.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/ieee802154/6lowpan/ieee802154_6lowpan.ko net/ieee802154/6lowpan/ieee802154_6lowpan.o net/ieee802154/6lowpan/ieee802154_6lowpan.mod.o;  true

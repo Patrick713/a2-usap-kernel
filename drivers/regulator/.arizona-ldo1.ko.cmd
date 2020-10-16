@@ -1,0 +1,1 @@
+cmd_drivers/regulator/arizona-ldo1.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/regulator/arizona-ldo1.ko drivers/regulator/arizona-ldo1.o drivers/regulator/arizona-ldo1.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/core/fb_sys_fops.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/video/fbdev/core/fb_sys_fops.ko drivers/video/fbdev/core/fb_sys_fops.o drivers/video/fbdev/core/fb_sys_fops.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/leds/trigger/ledtrig-netdev.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/leds/trigger/ledtrig-netdev.ko drivers/leds/trigger/ledtrig-netdev.o drivers/leds/trigger/ledtrig-netdev.mod.o;  true

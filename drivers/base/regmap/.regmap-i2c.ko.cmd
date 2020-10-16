@@ -1,0 +1,1 @@
+cmd_drivers/base/regmap/regmap-i2c.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/base/regmap/regmap-i2c.ko drivers/base/regmap/regmap-i2c.o drivers/base/regmap/regmap-i2c.mod.o;  true

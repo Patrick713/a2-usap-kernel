@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/ftdi-elan.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/usb/misc/ftdi-elan.ko drivers/usb/misc/ftdi-elan.o drivers/usb/misc/ftdi-elan.mod.o;  true

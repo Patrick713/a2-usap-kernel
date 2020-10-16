@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/cx82310_eth.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/net/usb/cx82310_eth.ko drivers/net/usb/cx82310_eth.o drivers/net/usb/cx82310_eth.mod.o;  true

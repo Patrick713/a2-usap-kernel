@@ -1,0 +1,1 @@
+cmd_net/sched/act_skbedit.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o net/sched/act_skbedit.ko net/sched/act_skbedit.o net/sched/act_skbedit.mod.o;  true

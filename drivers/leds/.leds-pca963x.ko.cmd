@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-pca963x.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/leds/leds-pca963x.ko drivers/leds/leds-pca963x.o drivers/leds/leds-pca963x.mod.o;  true

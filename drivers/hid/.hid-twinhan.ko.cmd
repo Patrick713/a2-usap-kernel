@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-twinhan.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/hid/hid-twinhan.ko drivers/hid/hid-twinhan.o drivers/hid/hid-twinhan.mod.o;  true

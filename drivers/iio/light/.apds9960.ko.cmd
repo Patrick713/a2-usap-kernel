@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/apds9960.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/iio/light/apds9960.ko drivers/iio/light/apds9960.o drivers/iio/light/apds9960.mod.o;  true

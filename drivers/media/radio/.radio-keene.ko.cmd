@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/radio-keene.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o drivers/media/radio/radio-keene.ko drivers/media/radio/radio-keene.o drivers/media/radio/radio-keene.mod.o;  true
